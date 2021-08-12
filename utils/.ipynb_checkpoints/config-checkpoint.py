@@ -1,8 +1,7 @@
 max_samples = 10000
 batch_size = 8
-num_emb = int(2e6+1)
-
 emb_dim = 50
+num_emb = int(2e6+1)
 context_size = 3
 neg_num = 5
 uniform = True
