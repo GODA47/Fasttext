@@ -14,6 +14,6 @@ misspell_freq = 0.5
 
 if uniform: dist = 'uniform'
 else: dist = 'noisedist'
-    
-epoch = f'{max_epochs}e'
-emb_path = f"../Trained_Models/SubwordEmbedding/trained_model/trained_model_{emb_dim}d_{dist}_{epoch}_{context_size}w"
+
+epo = f'{max_epochs}e'
+emb_path = f"../Trained_Models/SubwordEmbedding/trained_model/trained_model_{emb_dim}d_{dist}_{epo}_{context_size}w"

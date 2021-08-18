@@ -12,7 +12,7 @@ class subwordhash:
     def __call__(self, word):
         return self.subword_hashes(word, max_hash_num = self.max_hash)
     
-    def fnv1a(self, txt, K = int(2e6 + 1)):
+    def fnv1a(self, txt, K = int(2e6)):
         # 64 bit fnv-1a
         txt = bytes(txt, 'utf-8')
         hval = 0xcbf29ce484222325
